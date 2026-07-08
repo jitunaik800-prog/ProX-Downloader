@@ -50,7 +50,7 @@ class ProXDownloader(App):
         self.url_input = TextInput(
             hint_text="Paste Video or Music Link Here...",
             multiline=False,
-            padding=10,
+            padding=[10, 10, 10, 10],
             font_size='16sp',
             background_normal='',
             background_color=get_color_from_hex('#1E1E1E'),
